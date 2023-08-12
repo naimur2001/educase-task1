@@ -3,10 +3,12 @@ import React from 'react';
 const ProfilePage = () => {
   return (
     <div className='flex justify-center items-center  pb-2'>
+        {/* heading */}
   <div className='texts '>
       <h1 className='text-2xl  font-bold pr-32 '>Account Settings</h1>
      <div className=' flex flex-col  bg-slate-100 border-2  '>
      <div className='flex justify-start items-center  '>
+        {/* image & text */}
         <div className='relative p-4'>
           <img className='w-20 h-20 rounded-full' src="https://educase.io/wp-content/uploads/2022/05/1594317847944.webp" alt="Alok" />
           <span className='absolute bottom-6 left-20'><svg xmlns="http://www.w3.org/2000/svg" fill="purple" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-6 h-6">
@@ -15,6 +17,7 @@ const ProfilePage = () => {
 </svg>
 </span>
         </div>
+          {/* info text */}
         <div>
           <h1 className='font-medium text-lg'>Alok Doe</h1>
           <p className='font-medium text-gray-500'>Alok@educase.com</p>
@@ -22,6 +25,7 @@ const ProfilePage = () => {
         </div>
 
       </div>
+        {/* normal text */}
       <div className='max-w-md'>
       <p className='p-4 text-xs font-medium text-gray-500'>Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat, Sed Diam</p>
       </div>

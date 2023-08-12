@@ -3,7 +3,7 @@ import LandingPage from "./LandingPage";
 import LoginPage from "./LoginPage";
 import SignupPage from "./SignupPage";
 import ProfilePage from "./ProfilePage";
-
+  {/* routing */}
 const router=createBrowserRouter([
 {
   path: "/",
