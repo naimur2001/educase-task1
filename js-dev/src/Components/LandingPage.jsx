@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Particle from './Particle';
 
 const LandingPage = () => {
   return (
  <div>
- 
-     <div className='flex justify-center items-end min-h-screen pb-2'>
+ <Particle>
+  
+ </Particle>
+     <div className='flex justify-center items-end min-h-screen pb-2 bg-slate-300'>
     <div className='landing-container font-rubik px-2'>
       {/* heading text */}
      <div className='texts '>

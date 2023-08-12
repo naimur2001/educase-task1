@@ -31,7 +31,7 @@ const LoginPage = () => {
   {/* button */}
      <div className='buttons grid grid-cols-1 gap-2'>
 
-<Link to="/login" className='bg-purple-400 text-gray-800 
+<Link to="/profile" className='bg-purple-400 text-gray-800 
 text-base font-medium bg-opacity-40
 p-2 rounded-md text-center'><button >Login</button></Link>
      </div>
