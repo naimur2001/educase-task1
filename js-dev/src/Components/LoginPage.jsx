@@ -10,7 +10,7 @@ const LoginPage = () => {
      <div className='texts '>
       <h1 className='text-2xl  font-bold pr-32 '>Signing to your PopX account</h1>
       <p className='text-base font-medium opacity-60
-       pr-20 pt-2 pb-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+       pr-20 pt-2 pb-7'>Full Responsive dolor sit amet, consectetur adipiscing elit,</p>
      </div>
      {/* input field */}
 <form className='flex flex-col gap-4 mb-4'>

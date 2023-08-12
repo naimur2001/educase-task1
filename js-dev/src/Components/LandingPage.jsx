@@ -14,7 +14,7 @@ const LandingPage = () => {
      <div className='texts '>
       <h1 className='text-2xl  font-bold'>Welcome to PopX</h1>
       <p className='text-base font-medium opacity-60
-       pr-20 pt-2 pb-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+       pr-20 pt-2 pb-7'>Full Responsive,Take a mobile view. consectetur  elit,</p>
      </div>
 
 {/* two button */}
