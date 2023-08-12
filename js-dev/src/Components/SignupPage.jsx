@@ -7,7 +7,7 @@ const SignupPage = () => {
     <div className='flex justify-center items-center  pb-2'>
     <div className='landing-container font-rubik px-2'>
      <div className='texts '>
-      <h1 className='text-2xl  font-bold pr-32 '>Signin to your PopX account</h1>
+      <h1 className='text-2xl  font-bold pr-32 '>Create your PopX account</h1>
  
      </div>
      {/* input field */}
@@ -66,12 +66,23 @@ const SignupPage = () => {
  
     </div>
     </div>
-    <div className='buttons grid grid-cols-1  gap-2 fixed bottom-0 left-0 w-full px-2 pb-5'>
 
-<Link to="/login" className='bg-purple-400 text-gray-800 
-text-base font-medium bg-opacity-40
-p-2 rounded-md text-center '><button >Login</button></Link>
-     </div>
+
+    <div className='buttons grid grid-cols-1 gap-2 fixed bottom-0 left-0 w-full px-2 pb-5 place-items-center'>
+
+<Link to="/profile" className='bg-purple-600 text-white 
+text-base font-medium 
+p-2 rounded-md text-center inline-block lg:w-96 w-80 '>
+  <button>Create Account</button>
+</Link>
+
+</div>
+
+
+
+
+
+
     </div>
   );
 };

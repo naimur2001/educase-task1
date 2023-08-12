@@ -7,7 +7,7 @@ const LoginPage = () => {
  <div className='flex justify-center items-center  pb-2'>
     <div className='landing-container font-rubik px-2'>
      <div className='texts '>
-      <h1 className='text-2xl  font-bold pr-32 '>Signin to your PopX account</h1>
+      <h1 className='text-2xl  font-bold pr-32 '>Signing to your PopX account</h1>
       <p className='text-base font-medium opacity-60
        pr-20 pt-2 pb-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
      </div>
